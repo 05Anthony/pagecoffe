@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(168, 103, 91);
+}
+
+.titulo{
+    text-align: center;
+    color: tomato;
+    border: 5px solid color(srgb rgb(0, 0, 0) green blue);
+    font-size: 100px;
+    background-color: bisque;
+}
+
+table{
+    border: 5px solid color black;
+}
+
+
+
+.input-box{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+.boton{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    border-color: aliceblue;
+    
+}

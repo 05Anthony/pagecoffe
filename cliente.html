@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente/admision</title>
+    <link rel="stylesheet" href="css/cliente.css">
+<script>
+    function cancelar(){
+        alert("te falta unos datos");
+    }
+    function enviar(){
+        alert("enviado satisfactoriamente");
+        window.close();
+    }
+    }
+</script>
+</head>
+<body>
+    <h1 class="titulo">REGISTRO DE CLIENTES</h1>
+    <div align="center">
+    <form>
+        <h1>REGISTRO SOCIAL</h1>
+        <table>
+            <tr>
+                <td>INGRESE SU NOMBRE</td>
+                <td><input class="input-box" type="text" name="ingrese su nombre" placeholder="ingrese su nombre"></td>
+            </tr>
+            <tr>
+                <td>RUC</td>
+                <td><input class="input-box" type="text" name="ruc" placeholder="ingrese su ruc"></td>
+            </tr>
+            <tr>
+                <td>DIRECCION</td>
+                <td><input class="input-box" type="text" name="direccion" placeholder="ingrese su direccion"></td>
+            </tr>
+            <tr>
+                <td>INGRESE SU CORREO</td>
+                <td><input class="input-box" type="email" placeholder="ingrese su email"></td>
+            </tr>
+            <tr>
+                <td>DISTRITO</td>
+                <td>
+                    <select class="input-box" name="Villa el Salvador" id="" ></select>
+                </td>
+            </tr>
+            <tr>
+                <td>OBSERVACION</td>
+                <td> <textarea name="" id="" cols="60" rows="10" placeholder="danos una sugerencia"></textarea></td>
+            </tr>
+            <tr>
+                <td>CODIGO</td>
+                <td><input type="text"  readonly value="c001" placeholder="ingrese su codigo"></td>
+            </tr>
+            <tr>
+                <td>ARCHIVO ACTA</td>
+                <td><input type="file" placeholder="ingrese un archivo"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><button onclick="cancelar()" class="boton" >cancelar</button></td>
+                <td style="text-align: center;"><button onclick="enviar()" class="boton" >enviar</button></td>
+            </tr>
+        </table>
+    </form> 
+    </div>
+</body>
+</html>
